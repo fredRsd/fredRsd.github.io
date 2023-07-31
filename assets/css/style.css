@@ -375,14 +375,17 @@ body {
     padding: calc(var(--pad)*2 + 96px) calc(var(--pad)*2);
     text-align: right;
     white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .project_section+.project_section {
-    margin-top: 100px;
+    margin-top: 400px;
 }
 
 .project_heading {
-    font-weight: 400;
+    font-size: 16px;
 }
 
 .project_list {
