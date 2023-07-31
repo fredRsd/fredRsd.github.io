@@ -412,7 +412,7 @@ body {
 
 @media(max-width: 720px) {
     .project_title {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .project_info {
@@ -421,7 +421,7 @@ body {
 }
 @media(max-width: 480px) {
     .project_title {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .project_info {
