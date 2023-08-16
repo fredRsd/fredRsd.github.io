@@ -1,0 +1,56 @@
+/* baseStyle.css */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset default margin and padding for all elements */
+.siteBody{
+    background-color: #333;
+}
+
+/* Header */
+.siteHeader {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: solid 3px gold;
+}
+
+/* Header - navigation bar */
+.navBar{
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.navBar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.navBar-list-item {
+    margin: 5px 10px;
+}
+
+.navBar-list-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Header - Logo containder */
+.logoContainer{
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+#headerLogo {
+    height: auto;
+}
+
