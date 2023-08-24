@@ -776,16 +776,12 @@ main{
   color: #fff;
 }
 
-.skill-mf .progress {
-  margin: 0.5rem 0 1.2rem 0;
+.skill-mf .seperatorLine {
+  background-color: #fff;
+  margin: 0.7rem 0 0.7rem 0;
   border: 1px solid #fff;
   border-radius: 0;
-  height: 0.7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: 0.7rem;
-  background-color: #fff;
+  height: 3px;
 }
 
 .aboutIntroText{
